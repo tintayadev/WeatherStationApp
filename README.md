@@ -8,7 +8,7 @@ This is a C# Console Application that demonstrates:
 - Anonymous Methods
 - Event Handling in C#
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - .NET SDK installed
