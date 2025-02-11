@@ -26,10 +26,10 @@ This is a C# Console Application that demonstrates:
     ```
 
 
-## ** Topics Covered in This Project**
+## **Topics Covered in This Project**
 This project was designed to **practice and understand key C# concepts** related to **delegates, events, and event handling**. Below is a summary of the topics implemented:
 
-### ** 1. Delegates**
+### **1. Delegates**
 A **delegate** is a type that holds a reference to a method. It allows methods to be passed as parameters.
 - **Example Used:**
   ```csharp
@@ -39,7 +39,7 @@ A **delegate** is a type that holds a reference to a method. It allows methods t
 
 
 
-### ** 2. Events**
+### **2. Events**
 An **event** is a special delegate that allows a class to notify subscribers when something happens.
 - **Example Used:**
   ```csharp
@@ -49,7 +49,7 @@ An **event** is a special delegate that allows a class to notify subscribers whe
 
 ---
 
-### ** 3. Event Args (`EventArgs` Class)**
+### **3. Event Args (`EventArgs` Class)**
 An **EventArgs class** is used to pass **custom data** when raising an event.
 - **Example Used:**
   ```csharp
@@ -69,7 +69,7 @@ An **EventArgs class** is used to pass **custom data** when raising an event.
 
 
 
-### ** 4. Multicast Delegates**
+### **4. Multicast Delegates**
 A **multicast delegate** allows **multiple methods to be called** when an event is triggered.
 - **Example Used:**
   ```csharp
@@ -80,7 +80,7 @@ A **multicast delegate** allows **multiple methods to be called** when an event 
 
 
 
-### ** 5. Anonymous Methods**
+### **5. Anonymous Methods**
 An **anonymous method** is an unnamed function assigned to a delegate.
 - **Example Used:**
   ```csharp
@@ -93,7 +93,7 @@ An **anonymous method** is an unnamed function assigned to a delegate.
 
 
 
-### ** 6. Lambda Expressions**
+### **6. Lambda Expressions**
 A **lambda expression** is a short way to define an anonymous function.
 - **Example Used:**
   ```csharp
@@ -103,7 +103,7 @@ A **lambda expression** is a short way to define an anonymous function.
 - **Why?** It makes the **event subscription cleaner and more readable**.
 
 
-### ** 7. Delegate Inference (`+=` Operator)**
+### **7. Delegate Inference (`+=` Operator)**
 Delegate inference allows us to **attach methods to an event using `+=`**.
 - **Example Used:**
   ```csharp
@@ -112,7 +112,7 @@ Delegate inference allows us to **attach methods to an event using `+=`**.
 - **Why?** This makes it easy to **attach event handlers dynamically**.
 
 
-## ** Key Takeaways**
+## **Key Takeaways**
 ✅ **Events & Delegates** allow us to build **flexible, event-driven applications**.  
 ✅ **Multicast Delegates** allow multiple methods to respond to an event.  
 ✅ **Anonymous Methods & Lambda Expressions** make code **cleaner and more concise**.  
